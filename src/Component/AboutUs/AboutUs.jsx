@@ -1,6 +1,6 @@
 import style from './AboutUs.module.scss'
 import GroomImage from '../AboutUs/AboutUsImage/groom.svg'
-import BrideImage from '../AboutUs/AboutUsImage/Bride.svg'
+import BrideImage from '../AboutUs/AboutUsImage/bride.svg'
 import { FaFacebookF, FaHeart, FaInstagram, FaTwitter } from 'react-icons/fa'
 
 const AboutUs = () => {
