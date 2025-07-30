@@ -68,7 +68,7 @@ const Navbar = () => {
         <div className={style.mobile_menu_wrapper}>
           <div className={style.mobile_menu}>
             <div className={style.mobile_menu_close} onClick={() => setMenuOpen(false)}>
-              <IoMdClose />
+              <IoMdClose/>
             </div>
             <ul className={style.mobile_menu_list}>
               <li><a href='#home'>Home</a></li>
