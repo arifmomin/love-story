@@ -50,10 +50,10 @@ const Navbar = () => {
         <a href='#our-love' className={style.navbar_logo}>Ferdous & Salma</a>
 
         <ul className={style.navbar_menu}>
-          <li><a href='#home'>Home</a></li>
+          <li><a href='#banner'>Home</a></li>
           <li><a href='#about-us'>About Us</a></li>
           <li><a href='#our-story'>Our Story</a></li>
-          <li><a href='#timeline'>Timeline</a></li>
+          <li><a href='#TimeLine'>Timeline</a></li>
           <li><a href='#contact'>Contact Us</a></li>
         </ul>
 

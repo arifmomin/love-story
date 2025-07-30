@@ -169,7 +169,7 @@
     bottom: -2%;
     left: -53%;
     font: 600 46px/36px var(--roboto-slab);
-    color: var(--font-color);
+    color: #0fbcdacb;
 }
 .welcome-RightName::after {
     content: '';
@@ -187,7 +187,7 @@
     bottom: -2%;
     right: -53%;
     font: 600 46px/36px var(--roboto-slab);
-    color: var(--font-color);
+    color: #0fbcdacb;
 }
 .social-icon:hover{
     transform: translateY(-5px);
@@ -237,6 +237,9 @@
 }
 .counter{
     transform: translate(-50%, -58%);
+}
+.navbar_fixed ul li a{
+    color: #0fbcdacb;
 }
 @media (max-width: 640px){
     .input-left::after{

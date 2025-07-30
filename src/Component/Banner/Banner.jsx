@@ -3,7 +3,7 @@ import style from './Banner.module.scss'
 
 const Banner = () => {
   return (
-    <div className={style.Banner}>
+    <div id='banner' className={style.Banner}>
       <div className={style.banner_overlay}> </div>
       <div className='!z-[99999]'>
         <Navbar />

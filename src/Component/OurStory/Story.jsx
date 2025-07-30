@@ -5,7 +5,7 @@ import Engegment from "./OurStoryImage/engagement.jpg";
 import marrigeProposal from "./OurStoryImage/promise.jpg"
 const Story = () => {
   return (
-    <div className='py-16'>
+    <div id='our-story' className='py-16'>
         <div className='container'>
             <div>
                 <h2 className='heading'>Our Love Story</h2>
