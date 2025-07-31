@@ -51,7 +51,7 @@ const Welcome = () => {
           <h2 className='text-[36px] sm:text-[56px] text-fontColor font-semibold font-greatvibs'>Our Journey of Love</h2>
           <h3 className='text-[26px] sm:text-[36px] text-black font-semibold font-roboto'>Ferdous <span className='text-fontColor'>&</span> Salma</h3>
         </div>
-        <div className='flex justify-center items-center sm:gap-x-[25px] md:gap-x-[35px] lg:gap-x-[50px] gap-x-[15px]'>
+        <div className='flex justify-center items-center sm:gap-x-[25px] md:gap-x-[35px] lg:gap-x-[50px] gap-x-[5px]'>
           <div className='welcome-LeftName relative flex flex-col justify-center items-center gap-y-[30px]'>
             <div className='welcome-image w-[130px] h-[130px] sm:w-[250px] sm:h-[250px] md:w-[300px] md:h-[300px] lg:w-[350px] lg:h-[350px]'>
               <img className='w-full h-full' src={leftImage} alt={leftImage} />
