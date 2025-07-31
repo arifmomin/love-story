@@ -57,7 +57,7 @@ const Navbar = () => {
           <li><a href='#contact'>Forever</a></li>
         </ul>
 
-        <a target='blank' href='https://arifmomin.github.io/javascript-Quots/' className={style.navbar_wish}>Get a Quote</a>
+        <a target='blank' href='https://arifmomin.github.io/javascript-Quots/' className={style.navbar_wish}>Get A Quote</a>
 
         <div className={style.navbar_toggle} onClick={() => setMenuOpen(true)}>
           <GiHamburgerMenu />
@@ -79,7 +79,7 @@ const Navbar = () => {
             </ul>
             <div className={style.mobile_wish_button}>
               <a target='blank' href='https://arifmomin.github.io/javascript-Quots/' className={style.mobile_wish}>
-              Get a Quote
+              Get A Quote
             </a>
             </div>
           </div>
