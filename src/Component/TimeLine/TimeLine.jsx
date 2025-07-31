@@ -32,7 +32,7 @@ const [timeElapsed, setTimeElapsed] = useState({
   }, []);
 
   return (
-    <div id='TimeLine' className='w-full h-full py-16 md:py-24 mb-28'>
+    <div id='TimeLine' className='w-full h-full py-16 md:py-24'>
         <div className='container'>
             <div>
                 <h2 className='text-2xl md:text-[36px] text-fontColor font-greatvibs font-semibold text-center mb-2 md:mb-0'>Start Our Journey</h2>

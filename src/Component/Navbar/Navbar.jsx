@@ -54,10 +54,10 @@ const Navbar = () => {
           <li><a href='#about-us'>About Us</a></li>
           <li><a href='#our-story'>Our Story</a></li>
           <li><a href='#TimeLine'>Timeline</a></li>
-          <li><a href='#contact'>Contact Us</a></li>
+          <li><a href='#contact'>Forever</a></li>
         </ul>
 
-        <Link to='/wish' className={style.navbar_wish}>Send a Wish</Link>
+        <a target='blank' href='https://arifmomin.github.io/javascript-Quots/' className={style.navbar_wish}>Get a Quote</a>
 
         <div className={style.navbar_toggle} onClick={() => setMenuOpen(true)}>
           <GiHamburgerMenu />
@@ -75,12 +75,12 @@ const Navbar = () => {
               <li><a href='#about-us'>About Us</a></li>
               <li><a href='#our-story'>Our Story</a></li>
               <li><a href='#timeline'>Timeline</a></li>
-              <li><a href='#contact'>Contact Us</a></li>
+              <li><a href='#contact'>Forever</a></li>
             </ul>
             <div className={style.mobile_wish_button}>
-              <Link to='/wish' className={style.mobile_wish}>
-              Send a Wish
-            </Link>
+              <a target='blank' href='https://arifmomin.github.io/javascript-Quots/' className={style.mobile_wish}>
+              Get a Quote
+            </a>
             </div>
           </div>
         </div>
